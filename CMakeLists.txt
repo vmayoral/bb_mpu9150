@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(ros_mpu9150)
+project(bb_mpu9150)
 
 find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs)
 
