@@ -19,9 +19,6 @@ Default values (these values should be changed at the local_defaults.h and after
 * Default sample rate: 10 Hz
 * Default yaw mix factor: 4
 
-#####Subscribed topics
-none
-
 #####Published topics
 *imu_euler (std_msgs::String)*
 
