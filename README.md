@@ -12,7 +12,7 @@ This repository creates a ROS package that publishes the Invensense MPU-9150 dat
 ---
 
 
-####mpu9150_node
+####[mpu9150_node](https://github.com/vmayoral/bb_mpu9150/blob/master/src/mpu9150_node.cpp)
 Get samples from the Invensense MPU9150 sensor and output these processed samples. Outputs can be either euler angles, quaternions, calibrated accelerometer or calibrated magnetometer.
 Default values (these values should be changed at the local_defaults.h and afterwards the code should be cross-compiled again):
 * Default I2C Bus: 1 (i2c-2 at the Beaglebone).
