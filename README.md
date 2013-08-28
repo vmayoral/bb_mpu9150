@@ -23,7 +23,7 @@ Default values (these values should be changed at the local_defaults.h and after
 none
 
 #####Published topics
-*/imu_euler (std_msgs::String)*
+*imu_euler (std_msgs::String)*
 
 
 
