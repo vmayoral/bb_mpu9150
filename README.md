@@ -5,12 +5,6 @@ This repository creates a ROS package that publishes the Invensense MPU-9150 dat
 
 <img src="https://raw.github.com/vmayoral/beagle-ros/master/docs/images/bb_mpu9150_bb.png" width="400px" />
 
-----
-
-(The code uses the [linux-mpu9150](https://github.com/Pansenti/linux-mpu9150) driver.)
-
----
-
 
 ####[mpu9150_node](https://github.com/vmayoral/bb_mpu9150/blob/master/src/mpu9150_node.cpp)
 Get samples from the Invensense MPU9150 sensor and output these processed samples. Outputs can be either euler angles, quaternions, calibrated accelerometer or calibrated magnetometer.
