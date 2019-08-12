@@ -188,7 +188,7 @@ void read_loop(unsigned int sample_rate)
 	while (!done) {
 		if (mpu9150_read(&mpu) == 0) {
 			print_fused_euler_angles(&mpu);
-			// printf_fused_quaternions(&mpu);
+			// printf_fused_quaternion(&mpu);
 			// print_calibrated_accel(&mpu);
 			// print_calibrated_mag(&mpu);
 		}
@@ -209,7 +209,7 @@ void print_fused_euler_angles(mpudata_t *mpu)
 	fflush(stdout);
 }
 
-void print_fused_quaternions(mpudata_t *mpu)
+void print_fused_quaternion(mpudata_t *mpu)
 {
 	printf("\rW: %0.2f X: %0.2f Y: %0.2f Z: %0.2f        ",
 			mpu->fusedQuat[QUAT_W],
